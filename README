@@ -2,3 +2,29 @@ Content Crawler
 Really
 
 git@github.com:maslow788/Content-Crawler.git
+
+Global setup:
+  
+  Download and install Git
+  git config --global user.name "Your Name"
+  git config --global user.email maslow788@gmail.com
+  
+  
+  Next steps:
+    
+    mkdir Content-Crawler
+    cd Content-Crawler
+    git init
+    touch README
+    git add README
+    git commit -m 'first commit'
+    git remote add origin git@github.com:maslow788/Content-Crawler.git
+    git push origin master
+    
+    
+    Existing Git Repo?
+    
+    cd existing_git_repo
+    git remote add origin git@github.com:maslow788/Content-Crawler.git
+    git push origin master
+    
